@@ -7,10 +7,52 @@
     <title>grid system</title>
     <link rel="stylesheet" href="web.css">
       <style>
-
+           footer{
+                  background-color:red;
+                  padding-top:50px;
+           }
+       .container{
+                  width:1140px;
+                  margin:auto;
+                  display:flex;
+        justify-content:center;
+       }
+       .footer-content{
+                      width:33.3%;
+       }
+       .footer h2{
+        color:white;
+       }
+       h2{
+        font-size:20px;
+        margin-bottom:15px;
+        text-align:center;
+       }
+       .social-icons{
+        text-align:center;
+        padding:0;
+       }
+       .social-icons li{
+                    display:inline-block;
+                    text-align:center;
+                    padding:5px;
+       }
+       .social-icons i{
+                      color:white;
+                     font-size:25px;
+       }
+       a{
+        text-decoration:none;
+       }
+       a::hover{
+        color:red;
+       }
+       .social-icons i:hover{
+                     color:red;
+       }
+       
         
-        
-           body{
+                  body{
               background-color: black;
            }
         .menu ul{display: inline-flex;
@@ -52,11 +94,7 @@ color: white;
        .nav1 p{ color: white;
               
        }
-       .footer h2{
-        color:white;
-        
-       }
-      
+     
       </style>
      
     <head>
@@ -186,8 +224,8 @@ color: white;
   <div class="footer-content">
   <h1>contact us</h1>
    <ul class="social-icons">
-    <i class="fa-brands fa-instagram"></i></a></li>
-    <i class="fa-brands fa-whatsapp"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
    </ul></div></div>
    
 </footer></div>
