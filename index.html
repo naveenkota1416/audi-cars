@@ -54,6 +54,11 @@
                   body{
               background-color: black;
            }
+
+           .menu {
+                     margin-top: 20px;
+                     margin-right: 20px;
+           }
         .menu ul{display: inline-flex;
                   float: inline-end;
                   list-style-type: none;
@@ -98,11 +103,37 @@ color: white;
                       border-radius: 20px;
        }
 
+       .child4{
+                 padding: 10px;
+       }
+
+       .child5{
+        padding: 10px;
+       }
+
         .child5 img:hover{
                     background-color:white;
                       border-radius: 20px;
        }
+
+
+       .child2{
+                        margin-left: 20%;      
+       }
      
+
+       .modelsaudi{
+
+         
+        margin-top: 50px;
+         width: 500px;
+         height: 300px;
+       }
+
+       .modelsaudi h1{
+                        font-size: 22px;
+                        text-align: center;
+       }
       </style>
      
     <head>
@@ -119,14 +150,20 @@ color: white;
     </div> 
             
    <div class="container child2">
-    <div class="col-12 mt-5">
-        <center><img src="https://i.pinimg.com/564x/e0/b5/e2/e0b5e2d9e1c7d71f0125f1b955c9da3b.jpg" width="50%"/></center></div>  </div>     
+
+    <div>
+       
+        <img src="https://i.pinimg.com/564x/e0/b5/e2/e0b5e2d9e1c7d71f0125f1b955c9da3b.jpg" width="60%"/>
+      
+      </div>  
+    </div>    
+
 <div class="row nave">
     <marquee direction="right"><h1>COLOURS OF AUDI</h1></marquee>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-           <center><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.carwale.com%2Faudi-cars%2Fe-tron-sportback%2Fcolours%2F&psig=AOvVaw1rkX7W4QK80DxXgZXRwi7-&ust=1717056115164000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjqsN2ysoYDFQAAAAAdAAAAABAE"class="d-block "   alt="logo"></center>
+           <center><img src="img/car2.png"class="d-block "   alt="..."></center>
            <center><h2>Red</h2></center> 
           </div>
           <div class="carousel-item">
@@ -148,9 +185,10 @@ color: white;
         </button></div></div>
         
  <div class="container nav1 mt-5">
-    <h1>HISTORY</h1>
+    
 
     <div class="row">
+      <h1>HISTORY</h1>
 
         <div class="col-sm-5"> <img src="https://media.istockphoto.com/id/486498642/photo/convertible-oldtimer-vintage-car.jpg?s=612x612&w=0&k=20&c=xzdKvVvCKdKw20OaLmrWDA3xPNHwHBbsoP5T7_jtgGo=" alt="" width="100%"> </div>
 
@@ -165,12 +203,7 @@ color: white;
                  line in section 1.10.32Contrary to popular belief, Lorem Ipsum is not simply random text.
                  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
                  Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
-                  more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of
-                   the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-                    1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                     written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-                      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a 
-                      line in section 1.10.32</p></div>
+                  more obscure Latin words, consectetur, </p></div>
         
 
        
@@ -179,52 +212,80 @@ color: white;
 
  </div>
         
-    <div class="container cors">
-        <h1>MODELS</h1>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img\car2.png" class="d-block "   alt="...">
-               <center><h2>AUDI Q8</h2></center> 
-              </div>
-              <div class="carousel-item">
-                <img src="img\car3.png" class="d-block "  alt="...">
-                <center><h2>AUDI A2</h2></center> 
-              </div>
-              <div class="carousel-item">
-                <img src="img\carimg1.png" class="d-block "  alt="...">
-                <center><h2>AUDI RQe-tron</h2></center> 
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div></div>
+    
+<div class=" container-fluid  modelsaudi">
 
- <div class="container-fluid">
-  <h1>Your Audi is Waiting</h1>
+  
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <h1> Models Of An AUDI </h1>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/car2.png" class="d-block w-100"   alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/car3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carimg1.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+ <div class="container-fluid" >
   
   <div class="row child4">
-  <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/TestDrive-883x496.jpg?width=880" width="100%"/>
-    <center><h2>book a test drive</h2></center></div>
-  <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/ApprovedPlus-883X496.jpg?width=880" width="100%"/>
+
+    <h1>Your Audi is Waiting</h1>
+  
+ 
+  <div class="col-sm-4">
+    <img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/TestDrive-883x496.jpg?width=880" width="90%"/>
+    <center><h2>book a test drive</h2></center>
+  </div>
+
+
+  <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/ApprovedPlus-883X496.jpg?width=880" width="90%"/>
     <center><h2>get approved</h2></center></div>
-   <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/BookServices-833x496.jpg?width=880" width="100%"/>
+   <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/3_O-Homepage/BookServices-833x496.jpg?width=880" width="90%"/>
     <center><h2>Book your Services</h2></center></div></div></div>
 
 <div class="container-fluid">
-  <h1>Press Release</h1>
+ 
   <div class="row child5">
-    <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q7%20Bold%20Edition_1.jpg?width=441" width="100%" height="100%"/>
-      <center><h2>Audi india launches Audi Q7-Bold Edition</h2></center></div>
-      <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q3%20Bold.jpg?width=441" width="100%"  height="100%"/>
+    <h1>Press Release</h1>
+
+    <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q7%20Bold%20Edition_1.jpg?width=441" width="90%" height="90%"/>
+      <center><h2>Audi india launches Audi Q7-Bold Edition</h2></center>
+    </div>
+
+      <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q3%20Bold.jpg?width=441" width="90%"  height="90%"/>
         <center><h2>Audi india launches Q8</h2></center></div>
-        <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q5.jpg?width=441" width="100%" height="100%"/>
+        <div class="col-sm-4"><img src="https://www.audi.in/content/dam/nemo/in/Downloads/news/Audi%20Q5.jpg?width=441" width="90%" height="90%"/>
          <center><h2>Audi india launches Q5</h2></center> </div></div>
  <div>
 <footer>
